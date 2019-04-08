@@ -58,6 +58,8 @@ public class BlankFragment extends Fragment {
 
         context = container.getContext();
 
+        //data
+
         connection=new CheckInternetConnection(context);
 
         initViews(mView);
